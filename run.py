@@ -26,7 +26,7 @@ a.sort(reverse=True)
 a = list(filter(lambda tpl: tpl[0] > 1, a))
 
 for r in a:
-    print(f'Time: {strftime('%Y-%m-%d %H:%M:%S', localtime(r[0]))}, IP: {r[1]}')
+    print(f'Time: {strftime("%Y-%m-%d %H:%M:%S", localtime(r[0]))}, IP: {r[1]}')
 
     # print(item)
 
