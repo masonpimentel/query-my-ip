@@ -2,18 +2,12 @@
 
 `python` and `pip` should already be installed.
 
-<!-- ### Install pipenv
+### Installing packages
 
-Install `pipenv` to manage virtualenv: https://pipenv.pypa.io/en/latest/
+Ideally should use `pipenv` but it's quite a bit of hassle getting the correct Python version. Assuming CloudShell is not being used to manage other Python projects, just run the following:
 
-```
-$ pip install --user pipenv
-```
+`pip install boto3`
 
-### Install packages
+### Running
 
-```
-$ pipenv run sync
-``` -->
-
-For now just run `pip install boto3`
+`python run.py`
